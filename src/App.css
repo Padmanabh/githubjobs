@@ -15,9 +15,13 @@ body{
     padding-bottom: 1px;
 }
 
+h2{
+    margin-bottom: 0px;
+}
+
 .shrinked h2{
     font-size: 24px;
-    margin-bottom: 0px;
+
 }
 
 .shrinked img{
