@@ -1,7 +1,8 @@
 import { useReducer, useEffect } from 'react';
 import axios from 'axios';
 
-const BASE_URL = "http://localhost:8080/https://jobs.github.com/positions.json"
+//const BASE_URL = "http://localhost:8080/https://jobs.github.com/positions.json"
+const BASE_URL = "https://jobs.github.com/positions.json"
 
 const ACTIONS = {
     MAKE_REQUEST: "make-request",
