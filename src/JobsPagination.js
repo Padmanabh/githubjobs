@@ -3,10 +3,6 @@ import { Pagination } from 'react-bootstrap'
 
 export default class JobsPagination extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     adjustPage(amount) {
         this.props.setPage(this.props.page + amount);
     }
@@ -16,7 +12,7 @@ export default class JobsPagination extends Component {
         const { page, setPage, hasNextPage } = this.props;
 
         return (
-            <Pagination>
+            <Pagination className="mb-2">
                 {page > 1 && <Pagination.Prev onClick={() => this.adjustPage(-1)} />}
                 {page >= 2 && <Pagination.Item onClick={() => setPage(1)}>1</Pagination.Item>}
                 {page > 2 && <Pagination.Ellipsis />}

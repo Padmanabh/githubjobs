@@ -1,4 +1,25 @@
+body{
+    background-color: rgb(224, 224, 224);
+}
 .card{
     border-radius: 10px;
     box-shadow: 1px 3px 10px rgb(180, 180, 180);
+}
+.scrollable{
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.shrinked{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.shrinked h2{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.shrinked img{
+    height: 40px;
 }

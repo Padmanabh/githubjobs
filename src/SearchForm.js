@@ -3,7 +3,7 @@ import { Form, Col } from 'react-bootstrap'
 
 export default function SearchForm({ params, onParamChange }) {
     return (
-        <Form className="mb-4">
+        <Form className="mb-2" style={{marginTop:"87px"}}>
             <Form.Row className="align-items-end">
                 <Form.Group as={Col}>
                     <Form.Label>Description</Form.Label>

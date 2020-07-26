@@ -3,9 +3,9 @@ import axios from 'axios';
 
 //const BASE_URL = "https://jobs.github.com/positions.json"
 //self hosted
-//const BASE_URL = "http://localhost:8080/https://jobs.github.com/positions.json"
+const BASE_URL = "http://localhost:8080/https://jobs.github.com/positions.json"
 //heroku hosted
-const BASE_URL = "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json"
+//const BASE_URL = "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json"
 
 const ACTIONS = {
     MAKE_REQUEST: "make-request",
